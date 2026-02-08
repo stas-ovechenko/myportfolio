@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body id="body" class="body">
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <div class="header_content">
+                <button id="btn" class="burg">
+                    <span></span>
+                </button>
+                <nav id="menu" class="navigation">
+                    <ul class="nav_menu">
+                        <li><a href="#">Works</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- main -->
+    <main class="main">
+        <div class="container">
+            <div class="main_content">
+                <div class="main_content_title">
+                    <h1>Hi, Im Stas<br>Frontend Developer</h1>
+                    <p>Creating modern, responsive websites and learning<br>something new every day.</p>
+                    <button id="contact_btn" class="contact_btn">Contact Me</button>
+                </div>
+                <div id="menu_form" class="menu_form">
+                    <form id="dropdown_menu" class="dropdown_menu" autocomplete="off">
+                        <button id="close_button" type="button" class="close_button"></button>
+                        <div class="dropdown_menu_form">
+                            <input class="dropdown_menu_form_input" type="text" id="name" name="name" placeholder="Name" autocomplete="off">
+                        </div>
+                        <div class="dropdown_menu_form">
+                            <input class="dropdown_menu_form_input" type="tel" id="tel" name="tel" placeholder="Phone" autocomplete="off">
+                        </div>
+                        <div class="dropdown_menu_form">
+                            <textarea class="dropdown_menu_form_input" name="msg" id="msg" placeholder="Message"></textarea>
+                        </div>
+                        <button class="form_btn" type="submit">Start</button>
+                    </form>
+                </div>
+                <img src="image/photomyportfolio.png" alt="photomyportfolio"  width="300">
+            </div>
+        </div>
+    </main>
+    <!-- skills -->
+    <div class="skills">
+        <div class="container">
+            <div class="skills_content">
+                <h2>My Skills</h2>
+                <div class="sub_skills_content">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="./image/myportfolioiconhtml.png" alt="myportfolioiconhtml" width="90"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./image/myportfolioiconcss.png" alt="myportfolioiconcss" width="90"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./image/myportfolioiconjs.png" alt="myportfolioiconjs" width="90"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="./image/myportfolioicongithub.png" alt="myportfolioicongithub" width="90"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- works -->
+    <div class="works">
+        <div class="container">
+            <div class="works_content">
+                <h2>Works</h2>
+                <div class="sub_works_content">
+                    <div class="first_work">
+                        <img src="image/works1.png" alt="works1" height="150" width="250">
+                        <div class="first_work_content">
+                            <p class="first_work_title">StarBucks</p>
+                            <p class="second_work_title"><span>2026</span>Adaptive Layout</p>
+                            <p class="third_work_title">Layout implementation based on a design mockup.<br>Responsive structure, clean HTML/CSS/JS, and attention to details.</p>
+                        </div>
+                    </div>
+                    <div class="second_work">
+                        <img src="image/works2.png" alt="works2" height="150" width="250">
+                        <div class="second_work_content">
+                            <p class="first_work_title">Portfolio</p>
+                            <p class="second_work_title"><span>2023</span>Adaptive Layout</p>
+                            <p class="third_work_title">Layout implementation based on a design mockup.<br>Responsive structure, clean HTML/CSS/JS, and attention to details.</p>
+                        </div>
+                    </div>
+                    <div class="third_work">
+                        <img src="image/works3.png" alt="works3" height="150" width="250">
+                        <div class="third_work_content">
+                            <p class="first_work_title">NFT Marketplace</p>
+                            <p class="second_work_title"><span>2024</span>Adaptive Layout</p>
+                            <p class="third_work_title">Layout implementation based on a design mockup.<br>Responsive structure, clean HTML/CSS/JS, and attention to details.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_content">
+                <div class="sub_footer_content">
+                    <a href="#"><img src="image/fb.svg" alt="fb" height="30" width="30"></a>
+                    <a href="#"><img src="image/insta.svg" alt="insta" height="30" width="30"></a>
+                    <a href="#"><img src="image/tr.svg" alt="tr" height="30" width="30"></a>
+                </div>
+                <p>Copyright &copy;2026 All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/script.js" defer></script>
+    <div id="window_filter" class="window_filter"></div>
+</body>
+</html>
