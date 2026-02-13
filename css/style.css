@@ -242,11 +242,28 @@ canvas {
 	padding: 20px 0;
 }
 
+.bg_work {
+	background-color: var(--background);
+	border-radius: 15px;
+	width: 250px;
+	height: 150px;
+	padding: 15px 20px;
+}
+
 .first_work img,
 .second_work img,
 .third_work img {
 	transition: all 0.3s ease;
 	cursor: pointer;
+	width: 250px;
+	height: 150px;
+	border-radius: 15px;
+}
+
+.first_work img:hover,
+.second_work img:hover,
+.third_work img:hover {
+	box-shadow: 0 0 25px var(--matrix);
 }
 
 .first_work_title {
