@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body id="body" class="body">
+    <canvas id="matrix"></canvas>
     <!-- header -->
     <header class="header">
         <div class="container">
@@ -20,9 +21,9 @@
                 </button>
                 <nav id="menu" class="navigation">
                     <ul class="nav_menu">
-                        <li><a href="#">Works</a></li>
-                        <li><a href="#">Skills</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a id="works" href="#">Works</a></li>
+                        <li><a id="skills" href="#">Skills</a></li>
+                        <li><a id="contact" href="#">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -33,7 +34,7 @@
         <div class="container">
             <div class="main_content">
                 <div class="main_content_title">
-                    <h1>Hi, Im Stas<br>Frontend Developer</h1>
+                    <h1>Hi, Im <span>Stas</span><br>Frontend Developer</h1>
                     <p>Creating modern, responsive websites and learning<br>something new every day.</p>
                     <button id="contact_btn" class="contact_btn">Contact Me</button>
                 </div>
@@ -49,7 +50,7 @@
                         <div class="dropdown_menu_form">
                             <textarea class="dropdown_menu_form_input" name="msg" id="msg" placeholder="Message"></textarea>
                         </div>
-                        <button class="form_btn" type="submit">Start</button>
+                        <button class="form_btn" type="submit">Send Message</button>
                     </form>
                 </div>
                 <img src="image/photomyportfolio.png" alt="photomyportfolio"  width="300">
@@ -57,7 +58,7 @@
         </div>
     </main>
     <!-- skills -->
-    <div class="skills">
+    <div id="section_skills" class="skills">
         <div class="container">
             <div class="skills_content">
                 <h2>My Skills</h2>
@@ -81,7 +82,7 @@
         </div>
     </div>
     <!-- works -->
-    <div class="works">
+    <div id="section_works" class="works">
         <div class="container">
             <div class="works_content">
                 <h2>Works</h2>
@@ -115,13 +116,16 @@
         </div>
     </div>
     <!-- footer -->
-    <footer class="footer">
+    <footer id="section_contact" class="footer">
         <div class="container">
             <div class="footer_content">
+                <div id="arrow" class="arrow">
+                    <div></div>
+                </div>
                 <div class="sub_footer_content">
-                    <a href="#"><img src="image/fb.svg" alt="fb" height="30" width="30"></a>
-                    <a href="#"><img src="image/insta.svg" alt="insta" height="30" width="30"></a>
-                    <a href="#"><img src="image/tr.svg" alt="tr" height="30" width="30"></a>
+                    <a href="#"><img src="image/icontelegram.png" alt="icontelegram" height="30" width="30"></a>
+                    <a href="#"><img src="image/icontwitter.png" alt="icontwitter" height="30" width="30"></a>
+                    <a href="#"><img src="image/myportfolioicongithub.png" alt="icongithub" height="30" width="30"></a>
                 </div>
                 <p>Copyright &copy;2026 All rights reserved</p>
             </div>
